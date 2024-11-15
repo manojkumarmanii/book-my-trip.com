@@ -1,0 +1,249 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow-x: hidden;
+}
+
+.trip{
+    font-size: 20px;
+    width: 5px;
+}
+.support{
+    position:absolute;
+    right: 0%;
+
+}
+.call{
+    position: absolute;
+    right: 600px;
+    top: -35px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.search{
+    position: absolute;
+    right: 0%;
+}
+.topp li{
+    list-style: none;
+    text-decoration: none;
+  
+}
+.topp{
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    background-color: blue;
+    width: 100%;
+    gap: 40px;
+    z-index: 1;
+   
+}
+.topp li a{
+        color:whitesmoke;
+        text-decoration: none;
+        position: relative;
+        left: 200px;
+       
+}
+.bg{
+    width: 100%;
+    height: 570px;
+    position: absolute;
+    top: 110px;
+    z-index: -1;
+
+}
+.booking-form {
+    background: white;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border: 10px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 460px;
+    width: 80%;
+    left: 110px;
+    z-index: 2;
+}
+
+.book {
+    position: absolute;
+    top: 490px;
+    left: 150px;
+    z-index: 0;
+    padding-top: 5px;
+    padding-left: 25px;
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.booking-form form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.booking-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    flex: 1;
+    min-width: 120px;
+}
+
+.booking-form input {
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+
+.booking-form button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 0;
+    align-self: flex-end;
+    position: relative;
+    top: -17px;
+}
+
+.booking-form button:hover {
+    background: #c0392b;
+}
+.whos label {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -19px;
+    gap: 10px;
+
+}
+.whos input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+.hlo hr {
+    position: absolute;
+    top:0% ;
+}
+.pop{
+    position: absolute;
+    top: 740px;
+    font-family: bold;
+    font-size: 30px;
+}
+.pops {
+    position: absolute;
+    top: 1100px;
+    left: 100px;
+    font-family: bold;
+    font-size: 30px;
+}
+.arrow hr {
+    position: relative;
+    top: 500px;
+    right: 20px;
+    font-family: bold;
+    
+}
+.arrow span {
+    position: relative;
+    top: 455px;
+    left: 900px;
+    font-family: bold;
+    font-size: 40px;
+    color:gray;
+}
+.popular-hotels img, .hot-deals img { width: 100%;  }
+
+.footer { background-color: #f8f9fa; padding: 20px; position: relative; top: 650px; }
+
+.footer h6 { font-weight: bold;  }
+
+.popular-hotels {
+    position: relative;
+    top: 500px;
+    left: 20px;
+}
+.hot-deals{
+    position: relative;
+    top: 500px;
+}
+.card-body{
+    height: 70px;
+    width: 80%;
+   
+}
+.blogbanner{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid rgb(228, 221, 221);
+    top: 600px;
+    left: 20px;
+    position: relative;
+    font-style:oblique;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.logo {
+    position: relative;
+    left: 20px;
+    top: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.text-black {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.blue-rectangle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #005baa;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 70% 25% 70% 25%; 
+  margin-left: 5px;
+  position: relative;
+}
+
+.trip-text {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.dot-text {
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 2px;
+}
